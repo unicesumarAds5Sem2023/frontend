@@ -1,135 +1,138 @@
-<!DOCTYPE html>
-<html lang="pt-BR" data-ng-app="app" ng-strict-di ng-controller="AppCtrl">
-    <head>
-        <meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
-        <meta charset="utf-8"/>
-        <title ncy-breadcrumb-text="{{ncyBreadcrumbChain}} | Studeo Unicesumar" ncy-breadcrumb-text-separator=" &gt; ">Studeo Unicesumar | Ambiente Virtual de Aprendizagem</title>
-        <meta name="description" content="Conheça o Studeo Unicesumar. Seu ambiente virtual de aprendizagem. A Unicesumar - Centro Universitário Cesumar investe na melhoria da qualidade do ensino, sempre atenta às necessidades e anseios da região.">
-        <meta name="keywords" content="studeo unicesumar, nova ava, ava, ambiente virtual de aprendizagem, área do aluno">
-        <meta name="author" content="Unicesumar"/>
-        <meta name="robots" content="index, follow">
-        <meta property="fb:app_id" content="377112039380671">
-        <meta property="og:site_name" content="Studeo Unicesumar"/>
-        <meta property="og:url" content="https://studeo.unicesumar.edu.br/"/>
-        <meta property="og:type" content="website"/>
-        <meta property="og:title" content="Login - Studeo Unicesumar | Ambiente Virtual de Aprendizagem"/>
-        <meta property="og:description" content="Conheça o Studeo Unicesumar. Seu ambiente virtual de aprendizagem. A Unicesumar - Centro Universitário Cesumar investe na melhoria da qualidade do ensino, sempre atenta às necessidades e anseios da região."/>
-        <meta property="og:image" content="https://studeostatic.unicesumar.edu.br/img/unicesumar-studeo-og-imagem-facebook.jpg">
-        <meta property="og:image:url" content="https://studeostatic.unicesumar.edu.br/img/unicesumar-studeo-og-imagem-facebook.jpg">
-        <meta property="og:image:type" content="image/jpeg">
-        <meta property="og:image:width" content="800">
-        <meta property="og:image:height" content="600">
-        <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes"/>
-        <link rel="manifest" href="manifest.14fddf29.json">
-        <meta name="google" value="notranslate">
-        <meta name="apple-mobile-web-app-capable" content="yes">
-        <meta name="apple-touch-fullscreen" content="yes">
-        <meta name="apple-mobile-web-app-status-bar-style" content="black">
-        <meta name="theme-color" content="#00dbf2">
-        <style ng-if="false">
-            html {
-                height: 100%
-            }
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <div class="flex items-center justify-center p-12">
+  <!-- Author: FormBold Team -->
+  <!-- Learn More: https://formbold.com -->
+  <div class="mx-auto w-full max-w-[550px] bg-white">
+    <form
+      class="py-6 px-9"
+      action="https://formbold.com/s/FORM_ID"
+      method="POST"
+    >
+      <div class="mb-5">
+        <label
+          for="email"
+          class="mb-3 block text-base font-medium text-[#07074D]"
+        >
+          Send files to this email:
+        </label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="example@domain.com"
+          class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+        />
+      </div>
 
-            body {
-                height: 100%;
-                background-color: #fafafa
-            }
+      <div class="mb-6 pt-4">
+        <label class="mb-5 block text-xl font-semibold text-[#07074D]">
+          Upload File
+        </label>
 
-            .da39a3ee5e6 {
-                border: 4px solid #dfdfdf;
-                border-top: 4px solid #3498db;
-                border-radius: 50%;
-                width: 60px;
-                height: 60px;
-                animation: ahbesowfc .7s linear infinite;
-                margin: auto;
-                margin-top: 100px
-            }
+        <div class="mb-8">
+          <input type="file" name="file" id="file" class="sr-only" />
+          <label
+            for="file"
+            class="relative flex min-h-[200px] items-center justify-center rounded-md border border-dashed border-[#e0e0e0] p-12 text-center"
+          >
+            <div>
+              <span class="mb-2 block text-xl font-semibold text-[#07074D]">
+                Drop files here
+              </span>
+              <span class="mb-2 block text-base font-medium text-[#6B7280]">
+                Or
+              </span>
+              <span
+                class="inline-flex rounded border border-[#e0e0e0] py-2 px-7 text-base font-medium text-[#07074D]"
+              >
+                Browse
+              </span>
+            </div>
+          </label>
+        </div>
 
-            @keyframes ahbesowfc {
-                0% {
-                    transform: rotate(0)
-                }
+        <div class="mb-5 rounded-md bg-[#F5F7FB] py-4 px-8">
+          <div class="flex items-center justify-between">
+            <span class="truncate pr-3 text-base font-medium text-[#07074D]">
+              banner-design.png
+            </span>
+            <button class="text-[#07074D]">
+              <svg
+                width="10"
+                height="10"
+                viewBox="0 0 10 10"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M0.279337 0.279338C0.651787 -0.0931121 1.25565 -0.0931121 1.6281 0.279338L9.72066 8.3719C10.0931 8.74435 10.0931 9.34821 9.72066 9.72066C9.34821 10.0931 8.74435 10.0931 8.3719 9.72066L0.279337 1.6281C-0.0931125 1.25565 -0.0931125 0.651788 0.279337 0.279338Z"
+                  fill="currentColor"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M0.279337 9.72066C-0.0931125 9.34821 -0.0931125 8.74435 0.279337 8.3719L8.3719 0.279338C8.74435 -0.0931127 9.34821 -0.0931123 9.72066 0.279338C10.0931 0.651787 10.0931 1.25565 9.72066 1.6281L1.6281 9.72066C1.25565 10.0931 0.651787 10.0931 0.279337 9.72066Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
 
-                100% {
-                    transform: rotate(360deg)
-                }
-            }
+        <div class="rounded-md bg-[#F5F7FB] py-4 px-8">
+          <div class="flex items-center justify-between">
+            <span class="truncate pr-3 text-base font-medium text-[#07074D]">
+              banner-design.png
+            </span>
+            <button class="text-[#07074D]">
+              <svg
+                width="10"
+                height="10"
+                viewBox="0 0 10 10"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M0.279337 0.279338C0.651787 -0.0931121 1.25565 -0.0931121 1.6281 0.279338L9.72066 8.3719C10.0931 8.74435 10.0931 9.34821 9.72066 9.72066C9.34821 10.0931 8.74435 10.0931 8.3719 9.72066L0.279337 1.6281C-0.0931125 1.25565 -0.0931125 0.651788 0.279337 0.279338Z"
+                  fill="currentColor"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M0.279337 9.72066C-0.0931125 9.34821 -0.0931125 8.74435 0.279337 8.3719L8.3719 0.279338C8.74435 -0.0931127 9.34821 -0.0931123 9.72066 0.279338C10.0931 0.651787 10.0931 1.25565 9.72066 1.6281L1.6281 9.72066C1.25565 10.0931 0.651787 10.0931 0.279337 9.72066Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </button>
+          </div>
+          <div class="relative mt-5 h-[6px] w-full rounded-lg bg-[#E2E5EF]">
+            <div
+              class="absolute left-0 right-0 h-full w-[75%] rounded-lg bg-[#6A64F1]"
+            ></div>
+          </div>
+        </div>
+      </div>
 
-            .ng-cloak {
-                display: none!important
-            }
-        </style>
-        <script src="//cdn1.readspeaker.com/script/11962/webReader/webReader.js?pids=wr&dload=DocReader.AutoAdd" type="text/javascript"></script>
-    </head>
-    <body class="fixed-header" ng-class="{ 'menu-pin' : app.layout.menuPin, 'menu-behind' : app.layout.menuBehind, 'access-as': isAccessAs() }" walkthrough wt-start="wtStart" wt-next="wtNext" wt-prev="wtPrev" wt-cancel="wtCancel" wt-active="wtActive">
-        <div class="full-height ng-cloak" ui-view></div>
-        <div class="da39a3ee5e6" ng-if="false"></div>
-        <script type="text/javascript">
-            window.rsConf = {
-                general: {
-                    usePost: !0,
-                    forceLoadCoreWait: !0
-                }
-            },
-            window.onload = function() {
-                function e(e) {
-                    var t = document.createElement("link");
-                    t.rel = "stylesheet",
-                    t.href = e,
-                    document.head.appendChild(t)
-                }
-                function t(e, t) {
-                    var a = document.createElement("script");
-                    a.type = "text/javascript",
-                    a.async = !1,
-                    a.defer = !1,
-                    a.src = e,
-                    t && a.addEventListener("load", t, !1),
-                    document.body.appendChild(a)
-                }
-                var a, n, o, s, c, r;
-                e("bundle/css/bundle.min.7a9b3a45.css?time=" + Math.floor(Date.now() / 1e3)),
-                -1 != navigator.appVersion.indexOf("Windows NT 6.2") && e("br/edu/unicesumar/web-angular-layout/src/pages/css/windows.chrome.fix.38e75150.css?time=" + Math.floor(Date.now() / 1e3)),
-                t("https://studeostatic.unicesumar.edu.br/code/mathjax-2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML&delayStartupUntil=configured", function() {
-                    t("bundle/bundle.min.059482ce.js?time=" + Math.floor(Date.now() / 1e3))
-                }),
-                t("https://studeostatic.unicesumar.edu.br/code/ckeditor/ckeditor.js", function() {}),
-                a = window,
-                n = document,
-                o = "script",
-                s = "ga",
-                a.GoogleAnalyticsObject = s,
-                a.ga = a.ga || function() {
-                    (a.ga.q = a.ga.q || []).push(arguments)
-                }
-                ,
-                a.ga.l = 1 * new Date,
-                c = n.createElement(o),
-                r = n.getElementsByTagName(o)[0],
-                c.async = 1,
-                c.src = "https://www.google-analytics.com/analytics.js",
-                r.parentNode.insertBefore(c, r),
-                ga("create", "UA-10863773-23", "auto"),
-                function(e, t, a, n, o) {
-                    e[n] = e[n] || [],
-                    e[n].push({
-                        "gtm.start": (new Date).getTime(),
-                        event: "gtm.js"
-                    });
-                    var s = t.getElementsByTagName(a)[0]
-                      , c = t.createElement(a);
-                    c.async = !0,
-                    c.src = "https://www.googletagmanager.com/gtm.js?id=GTM-KZW3C4H",
-                    s.parentNode.insertBefore(c, s)
-                }(window, document, "script", "dataLayer")
-            }
-        </script>
-        <link rel="stylesheet" href="https://cdn.privacytools.com.br/public_api/banner/style/YAvl11014111.css?t=1">
-        <script type="text/javascript" src="https://cdn.privacytools.com.br/public_api/banner/script/bottom/YAvl11014111.js?t=1"></script>
-        <noscript>
-            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KZW3C4H" height="0" width="0" style="display:none;visibility:hidden"></iframe>
-        </noscript>
-    </body>
+      <div>
+        <button
+          class="hover:shadow-form w-full rounded-md bg-[#6A64F1] py-3 px-8 text-center text-base font-semibold text-white outline-none"
+        >
+          Send File
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+</body>
 </html>
